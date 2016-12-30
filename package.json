@@ -1,0 +1,30 @@
+{
+  "name": "crud_restful_node_vendovelli",
+  "version": "1.0.0",
+  "description": "Servidor RESTfull com node.js e mongo db",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "devSubl": "subl . && nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Renan Pallin",
+  "email" : "renanpallin@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanpallin/node_restifull.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renanpallin/node_restifull/issues"
+  },
+  "homepage": "https://github.com/renanpallin/node_restifull#readme"
+}
